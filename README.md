@@ -13,6 +13,10 @@ https://www.amazon.com/Complexity-Guided-Tour-Melanie-Mitchell-dp-0199798109/dp/
 ## Explored Topics
 
 1. Monty Hall Problem \
-References:
+References: \
 https://en.wikipedia.org/wiki/Monty_Hall_problem
+
+2. Logistic Map \
+References: \
+https://en.wikipedia.org/wiki/Logistic_map
 
