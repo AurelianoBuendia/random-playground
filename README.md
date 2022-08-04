@@ -1,8 +1,7 @@
 # Random Playground
 
 Random Playground is a repository for exercises of analysis and simulation on 
-Randomness, Complexity and Dynamical Systems. Code is mainly written in Python. Algorithms may be original or "translated" from other sources/languages, when they were not already available in Python (at least for the best of my knowledge at the time). \
-In the latter case, references to original sources are informed. \
+Randomness, Complexity and Dynamical Systems. Code is mainly written in Python. Algorithms may be original or "translated" from other sources/languages, when they were not already available in Python (at least for the best of my knowledge at the time). In the latter case, references to original sources are informed. \
 Collaborations and discussions on the explored (and additional) topics are welcomed.
 
 ## General references
