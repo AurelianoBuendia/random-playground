@@ -30,7 +30,7 @@ def play_monty_hall(switch_door: bool, num_options: int = 3):
     return prize_door, player_door, win
 
 
-def repeat_experiments(num_repetitions: int, switch_door: bool, num_options: int):
+def repeat_experiments(num_repetitions: int, switch_door: bool, num_options: int = 3):
     results = []
     for i in range(num_repetitions):
         results.append(play_monty_hall(switch_door, num_options))
@@ -39,9 +39,9 @@ def repeat_experiments(num_repetitions: int, switch_door: bool, num_options: int
 
 if __name__ == "__main__":
     num_trials = 1000000
-    results = repeat_experiments(num_trials, True, 100)
+    results = repeat_experiments(num_trials, True)
     wins = results[:, 2].sum()
     print(f"Switch door ON: {(wins / results.shape[0]) * 100:.2f}% wins in {num_trials} runs.")
-    results = repeat_experiments(num_trials, False, 100)
+    results = repeat_experiments(num_trials, False)
     wins = results[:, 2].sum()
     print(f"Switch door OFF: {(wins / results.shape[0]) * 100:.2f}% wins in {num_trials} runs.")
